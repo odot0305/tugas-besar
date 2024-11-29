@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Warna latar abu-abu terang */
+    margin-top: 20px;
+}
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    text-align: center;
+    color: solid black;
+}
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.chart-container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+    /* JARAK ANTAR CARD */
+    .row-cols-md-2 > * {
+    margin-bottom: 20px; /* Jarak antar card */
+}
+/* DIAGRAM */
+.chart-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+}
